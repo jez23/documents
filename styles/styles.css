@@ -1,0 +1,20 @@
+.hide{
+    display: none;
+}
+.folder{
+    padding: 20px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.file{
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.search{
+    padding: 20px;
+}
+.openAccordion {
+    margin-bottom: 10px
+}

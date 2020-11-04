@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documents</title>
+    <title>Document Database</title>
     <link rel="stylesheet" href="/styles/styles.css">
 </head>
 <body>
             <div class="search">
-                <input aria-placeholder="Enter Search"></input>
+                <input placeholder="Enter Search" class='searchInput'></input>
                 <select name="filter" id="filter">
-                    <option value="">Name</option>
-                    <option value="">Type</option>
-                    <option value="">Added</option>
+                    <option value="name_+">Name (Asc)</option>
+                    <option value="name_-">Name (Desc)</option>
+                    <option value="type_+">Type (Asc)</option>
+                    <option value="type_-">Type (Desc)</option>
+                    <option value="added_+">Added (Asc)</option>
+                    <option value="added_-">Added (Desc)</option>
                 </select>
             </div>
             <div class="result">

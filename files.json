@@ -12,6 +12,7 @@
     {
        "type": "folder",
        "name": "Expenses",
+       "added": "2017-05-02",
        "files": [
           {
              "type": "doc",
@@ -33,6 +34,7 @@
     {
        "type": "folder",
        "name": "Misc",
+       "added": "2017-12-01",
        "files": [
           {
              "type": "doc",
