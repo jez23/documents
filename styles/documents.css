@@ -1,0 +1,64 @@
+.documents__outerContainer{
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: 
+        '. . indoc indoc indoc indoc indoc indoc indoc indoc . .';
+    display: grid;
+    min-height: 400px;
+}
+.documents__innerContainer {
+    grid-area: indoc;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'doc doc doc doc';
+ 
+}
+.document{
+    display: grid;
+    grid-area: doc;
+    grid-template-columns: repeat(8, 1fr);
+
+    grid-template-areas: 
+        '. name name name name controls controls .'
+        'accordion accordion accordion accordion accordion accordion accordion accordion';
+   background-color: white;
+   border: 1px solid #dbdbdb;
+   margin-bottom: 20px;
+}
+.document_details h2{
+    color: #e40038;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+.document_details p{
+    color: #253143;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.document_details{
+    grid-area: name;
+    padding: 10px;
+    align-self: center;
+}
+.document_buttons{
+    grid-area: controls;
+    padding: 10px;
+    align-self: center;
+    justify-self: center;
+}
+.accordion{
+    grid-area: accordion;
+    padding: 10px;
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .document{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: 
+        ' name name name name '
+        ' controls controls controls controls '
+        ' accordion accordion accordion accordion ';
+    }
+}

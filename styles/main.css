@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Loto, sans-serif;
+}
+.btn{
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #e40038;
+    border-radius: 50px;
+    padding: 8px 30px;
+    transition: .2s ease;
+    font-size: 17px;
+    cursor: pointer;
+    display: block;
+    width: 160px;
+    margin-bottom: 10px;
+}
+.btn:hover{
+    background-color: #e40038;
+    color: white;
+}
+.btn a{
+    text-decoration: none;
+}
+.hide{
+    display: none;
+}
+.noResults{
+    margin-bottom: 50px;
+}

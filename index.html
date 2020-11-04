@@ -1,26 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document Database</title>
-    <link rel="stylesheet" href="/styles/styles.css">
-</head>
-<body>
-            <div class="search">
-                <input placeholder="Enter Search" class='searchInput'></input>
-                <select name="filter" id="filter">
-                    <option value="name_+">Name (Asc)</option>
-                    <option value="name_-">Name (Desc)</option>
-                    <option value="type_+">Type (Asc)</option>
-                    <option value="type_-">Type (Desc)</option>
-                    <option value="added_+">Added (Asc)</option>
-                    <option value="added_-">Added (Desc)</option>
-                </select>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document Database</title>
+      <link rel="stylesheet" href="./styles/styles.css">
+   </head>
+   <body>
+      <div class='header'>
+         <div class='header__logo'>
+            <a href="https://www.peninsulagrouplimited.com/"><img src='./images/peninsula.png' alt='Peninsula Logo'/></a>
+         </div>
+         <div class='header__links'>
+            <ul>
+               <li><a href="https://www.peninsulagrouplimited.com/services/">Services</a></li>
+               <li><a href="https://www.peninsulagrouplimited.com/corporate-services/employee-relations-managed-services/">Coporate services</a></li>
+               <li><a href="https://www.peninsulagrouplimited.com/pricing/">Pricing</a></li>
+               <li><a href="https://www.peninsulagrouplimited.com/knowledge/">Resources</a></li>
+               <li><a href="https://www.peninsulagrouplimited.com/about/">About</a></li>
+               <li><a href="https://www.peninsulagrouplimited.com/contact-us/">Contact us</a></li>
+               <li><a href="https://www.peninsulagrouplimited.com/pandemic-hr-advice-for-business-owners/">Covid Advice</a></li>
+            </ul>
+         </div>
+         <div class='header__contact'>
+            <p><strong>Speak to an expert on</strong></p>
+            <a href='tel:0800 028 2420'>0800 028 2420</a>
+            <i class="fas fa-phone-square-alt"></i>
+         </div>
+      </div>
+      <div class='search'>
+         <div class='search_input'>
+            <div class="search_input_field">
+               <input placeholder="Enter Search" class='searchInput'></input>
+               <i class="fa fa-search" aria-hidden="true"></i>
             </div>
+         </div>
+         <div class='search_filter'>
+            <select name="filter" id="filter">
+               <option value="name_+">Name (Asc)</option>
+               <option value="name_-">Name (Desc)</option>
+               <option value="type_+">Type (Asc)</option>
+               <option value="type_-">Type (Desc)</option>
+               <option value="added_+">Added (Asc)</option>
+               <option value="added_-">Added (Desc)</option>
+            </select>
+         </div>
+      </div>
+      <div class="documents__outerContainer">
+         <div class="documents__innerContainer">
             <div class="result">
-                
             </div>
-     <script src='./scripts/scripts.js'></script>       
-</body>
+         </div>
+      </div>
+      <footer>
+         <div class='footer'>
+            <div class="navigation">
+               <h3>Navigation</h3>
+               <ul>
+                  <li>Contact</li>
+                  <li>Corporate Social Responsibility</li>
+                  <li>Testimonials & Reviews</li>
+                  <li>Privacy Policy</li>
+                  <li>Complaints Procedure</li>
+                  <li>GDPR Compliance Statement</li>
+                  <li>Gender Pay Gap Report</li>
+               </ul>
+            </div>
+            <div class="knowledge">
+               <h3>Knowledge Centre</h3>
+               <ul>
+                  <li>Resources</li>
+                  <li>Guides</li>
+                  <li>Free Downloads</li>
+                  <li>Blog</li>
+               </ul>
+            </div>
+            <div class="address">
+               <h3>Address</h3>
+               <p>The Peninsula<br />
+                  Victoria Place<br />
+                  Manchester<br />
+                  M4 4FB (Sat Nav M4 4EW)<br />
+                  UK<br />
+                  <a href="tel:08000282420">0800 028 2420</a>
+               </p>
+            </div>
+            <div class="newsletter">
+               <h3>Newsletter Sign-Up</h3>
+               <p>Get the latest news & tips that matter most to your business in our monthly newsletter, In the Loop <a href="https://www.peninsulagrouplimited.com/privacypolicy/">View our privacy notice here</a>.</p>
+               <div>
+                  <input placeholder="Enter your email address"/>
+                  <button>Subscribe</button>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <script src='./scripts/scripts.js'></script>       
+   </body>
 </html>

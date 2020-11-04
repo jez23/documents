@@ -1,0 +1,38 @@
+.footer{
+    background-color: #253143;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:    
+        'navigation knowledge address newsletter';
+    padding: 20px;
+}
+.footer h3{
+    margin-bottom: 20px;
+}
+.footer ul li {
+    margin-right: 10px;
+    color: white;
+    list-style: none;
+    font-size: 14px;
+}
+.navigation{
+    grid-area: navigation;
+}
+.knowledge{
+    grid-area: knowledge;
+}
+.address{
+    grid-area: address;
+}
+.newsletter{
+    grid-area: newsletter;
+}
+@media only screen and (max-width: 800px) {
+    .footer{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:    
+            'navigation knowledge'
+            'address newsletter';
+    }
+}
