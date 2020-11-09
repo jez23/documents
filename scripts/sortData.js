@@ -1,4 +1,4 @@
-import updateHTML from './html.js';
+import updateHTML from './updateHtml.js';
 
 const sortData = (property, ascOrDsc, origianlData) => {
 

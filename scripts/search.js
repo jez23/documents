@@ -1,4 +1,4 @@
-import updateHTML from './html.js';
+import updateHTML from './updateHtml.js';
 
 const search = (searchTerm, origianlData) => {
     if (searchTerm.length < 1) {

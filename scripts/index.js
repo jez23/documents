@@ -1,6 +1,6 @@
 "use strict";
 
-import updateHTML from './html.js';
+import updateHTML from './updateHtml.js';
 import addEventListeners from './addEventListeners.js';
 
 (() => {
