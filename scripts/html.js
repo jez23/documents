@@ -1,9 +1,7 @@
 const results = document.querySelector('.result');
 
 const updateHTML = (data) => {
-
     let html = '';
-
     if (data.length > 0) {
         data.forEach(file => {
           
